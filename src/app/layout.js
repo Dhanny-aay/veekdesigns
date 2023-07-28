@@ -1,7 +1,14 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Archivo } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const archivo = Archivo({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-Archivo',
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable} ${archivo.variable}`}>{children}</body>
     </html>
   )
 }
