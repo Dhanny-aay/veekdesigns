@@ -6,7 +6,7 @@ const Servies = () => {
         <div className=" mt-[64px]  px-3 md:px-[50px] lg:px-[100px] flex flex-col justify-center items-center w-full">
             <p className=" font-Archivo text-center text-2xl md:text-[32px] lg:text-[48px] font-normal">My Services</p>
             <p className=" font-Archivo text-center text-base md:text-[16px] lg:text-[24px] mt-2 font-light"> Several services I offer.</p>
-            <div className=" flex flex-col md:flex-row justify-between items-center w-full mt-6 md:mt-8 lg:mt-[64px] relative ">
+            <div className=" flex flex-col md:flex-row justify-around items-center w-full mt-6 md:mt-8 lg:mt-[64px] relative ">
                 <div className=" flex flex-col items-center w-full md:w-[48%] ">
                     <div className=" w-[100%] lg:w-[400px] h-[400px] md:h-[300px] lg:h-[400px] bg-[#FFFAE5] rounded-[50px] z-30">
 
