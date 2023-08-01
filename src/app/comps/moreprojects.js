@@ -24,7 +24,7 @@ const Moreprojects = () => {
             </div>
             <div className=" -translate-y-[700px] w-full flex flex-row items-center justify-between">
                 <button className=" bg-[#f5f5f7] px-5 py-3 rounded-[50px] flex items-center justify-center space-x-3">
-                    <Image src={ arrRight } className="" alt="" />
+                    <Image src={ arrRight } className=" lg:w-" alt="" />
                    <p className=" text-base md:text-xl font-Archivo font-normal ">Previous Project</p>
                 </button>
                 <span className=" flex items-center space-x-8 font-Archivo text-2xl font-normal">
