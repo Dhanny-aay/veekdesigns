@@ -12,7 +12,8 @@ module.exports = {
       },
       fontFamily: {
         inter: ['var(--font-inter)'],
-        Archivo: ['var(--font-Archivo)'],
+        Archivo: ['var(--font-archivo)'],
+        josefin: ['var(--font-Josefin_Sans)'],
       },
     },
   },
