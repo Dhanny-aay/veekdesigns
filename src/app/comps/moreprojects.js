@@ -22,21 +22,21 @@ const Moreprojects = () => {
             </div>
             <div className=" w-[90%] bg-[#FFAF24] h-[400px] rounded-[50px] z-10 -translate-y-[760px] relative">
             </div>
-            <div className=" -translate-y-[700px] w-full flex flex-row items-center justify-between">
-                <button className=" bg-[#f5f5f7] px-5 py-3 rounded-[50px] flex items-center justify-center space-x-3">
-                    <Image src={ arrRight } className=" lg:w-" alt="" />
-                   <p className=" text-base md:text-xl font-Archivo font-normal ">Previous Project</p>
+            <div className=" -translate-y-[700px] w-[full] flex flex-row items-center justify-between">
+                <button className=" bg-[#f5f5f7] px-3 py-2 md:px-5 md:py-3 rounded-[50px] flex items-center justify-center space-x-1 md:space-x-3">
+                    <Image src={ arrRight } className=" w-[10px] h-[10px] lg:w-auto lg:h-auto" alt="" />
+                   <p className=" text-[10px] md:text-xl font-Archivo font-normal ">Previous Project</p>
                 </button>
-                <span className=" flex items-center space-x-8 font-Archivo text-2xl font-normal">
-                    <button className="bg-[#000] text-white w-[55px] h-[55px] rounded-[50%] flex items-center justify-center">1</button>
-                    <button className="bg-[#f5f5f7] w-[55px] h-[55px] rounded-[50%] flex items-center justify-center">2</button>
-                    <button className="bg-[#f5f5f7] w-[55px] h-[55px] rounded-[50%] flex items-center justify-center">3</button>
-                    <button className="bg-[#f5f5f7] w-[55px] h-[55px] rounded-[50%] flex items-center justify-center">4</button>
-                    <button className="bg-[#f5f5f7] w-[55px] h-[55px] rounded-[50%] flex items-center justify-center">...</button>
+                <span className=" flex items-center space-x-3 md:space-x-8 font-Archivo text-[10px] md:text-2xl font-normal">
+                    <button className="bg-[#000] text-white w-[20px] h-[20px] md:w-[55px] md:h-[55px] rounded-[50%] flex items-center justify-center">1</button>
+                    <button className="bg-[#f5f5f7] w-[20px] h-[20px] md:w-[55px] md:h-[55px] rounded-[50%] flex items-center justify-center">2</button>
+                    <button className="bg-[#f5f5f7] w-[20px] h-[20px] md:w-[55px] md:h-[55px] rounded-[50%] flex items-center justify-center">3</button>
+                    <button className="bg-[#f5f5f7] w-[20px] h-[20px] md:w-[55px] md:h-[55px] rounded-[50%] flex items-center justify-center">4</button>
+                    <button className="bg-[#f5f5f7] w-[20px] h-[20px] md:w-[55px] md:h-[55px] rounded-[50%] flex items-center justify-center">...</button>
                 </span>
-                <button className=" bg-[#f5f5f7] px-5 py-3 rounded-[50px] flex items-center justify-center space-x-3">
-                   <p className=" text-base md:text-xl font-Archivo font-normal ">Next Project</p>
-                    <Image src={ arrLeft } className="" alt="" />
+                <button className=" bg-[#f5f5f7] px-3 py-2 md:px-5 md:py-3 rounded-[50px] flex items-center justify-center space-x-1 md:space-x-3">
+                   <p className=" text-[10px] md:text-xl font-Archivo font-normal ">Next Project</p>
+                    <Image src={ arrLeft } className="w-[10px] h-[10px] lg:w-auto lg:h-auto" alt="" />
                 </button>
             </div>
         </div>
