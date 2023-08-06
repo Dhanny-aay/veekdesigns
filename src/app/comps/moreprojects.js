@@ -7,10 +7,11 @@ import cloud from '../images/cloud.svg';
 import arrRight from '../images/arrow-right.svg';
 import arrLeft from '../images/arrow-left.svg';
 
+
 const Moreprojects = () => {
     return ( 
         <>
-        <div className="mt-[64px] px-3 md:px-[50px] lg:px-[100px] w-full -translate-y-[760px] md:-translate-y-[560px] lg:-translate-y-[760px] flex justify-center items-center flex-col">
+        <div className="mt-[64px] px-3 md:px-[50px] lg:px-[100px] w-full -translate-y-[760px] md:-translate-y-[560px] lg:-translate-y-[760px] flex justify-center items-center flex-col -mb-[1400px] md:-mb-[1220px] lg:-mb-[1390px]">
             <p className=" font-Archivo text-center text-2xl md:text-[32px] lg:text-[48px] font-normal">More Projects</p>
             <p className="font-Archivo text-center text-base md:text-[16px] lg:text-[24px] mt-2 font-light">View More Projects i've have worked on.</p>
             <div className=" w-full mt-16 bg-[#1C2124] flex justify-center items-center flex-col z-30 h-[400px] rounded-[50px] relative">

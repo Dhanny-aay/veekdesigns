@@ -28,3 +28,6 @@ body {
 .hero{
   background-image: url(./images/hero.jpg);
 }
+.pattern{
+  background-image: url(./images/Pattern.svg);
+}
