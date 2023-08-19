@@ -23,9 +23,9 @@ const Moreprojects = () => {
                 <Image src={ rightmob } className=" h-[ absolute bottom-0 right-0 w-[30 block md:hidden" alt="" />
                 <Image src={ right } className=" h-[100%] absolute bottom-0 right-0 w-[300px] hidden md:block" alt="" />
             </div>
-            <div className=" w-[95%] bg-[#FDF3C0] h-[400px] rounded-[50px] z-20 -translate-y-[380px] relative">
+            <div className=" w-[95%] bg-[#FDF3C0] h-[400px] rounded-[50px] z-20 -translate-y-[390px] relative">
             </div>
-            <div className=" w-[90%] bg-[#FFAF24] h-[400px] rounded-[50px] z-10 -translate-y-[760px] relative">
+            <div className=" w-[90%] bg-[#FFAF24] h-[400px] rounded-[50px] z-10 -translate-y-[780px] relative">
             </div>
             <div className=" -translate-y-[700px] w-full flex flex-row items-center space-x-2 md:space-x-0 justify-between">
                 <button className=" bg-[#f5f5f7] px-3 py-2 lg:px-5 lg:py-3 rounded-[50px] flex items-center justify-center space-x-1 lg:space-x-3">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import send from '../images/send.png';
+import serviceone from '../images/serve1.svg';
 const Servies = () => {
     return ( 
         <>
@@ -8,13 +9,13 @@ const Servies = () => {
             <p className=" font-Archivo text-center text-base md:text-[16px] lg:text-[24px] mt-2 font-light"> Several services I offer.</p>
             <div className=" flex flex-col md:flex-row justify-around items-center w-full mt-6 md:mt-8 lg:mt-[64px] relative ">
                 <div className=" flex flex-col items-center w-full md:w-[48%] ">
-                    <div className=" w-[100%] lg:w-[400px] h-[400px] md:h-[300px] lg:h-[400px] bg-[#FFFAE5] rounded-[50px] z-30">
+                    <div className=" w-[100%] lg:w-[400px] h-[400px] md:h-[300px] flex justify-center items-center lg:h-[400px] bg-[#FFFAE5] rounded-[50px] z-30">
+                        <Image src={ serviceone } className=" w-auto h-auto" alt="" />
+                    </div>
+                    <div className=" w-[95%] lg:w-[380px] h-[400px] md:h-[300px] lg:h-[400px] bg-[#3FB8FC] rounded-[50px] -translate-y-[390px] md:-translate-y-[290px] lg:-translate-y-[390px] z-20">
 
                     </div>
-                    <div className=" w-[95%] lg:w-[380px] h-[400px] md:h-[300px] lg:h-[400px] bg-[#3FB8FC] rounded-[50px] -translate-y-[380px] md:-translate-y-[280px] lg:-translate-y-[380px] z-20">
-
-                    </div>
-                    <div className=" w-[90%] lg:w-[360px] h-[400px] md:h-[300px] lg:h-[400px] bg-[#1F86FB] rounded-[50px] -translate-y-[760px] md:-translate-y-[560px] lg:-translate-y-[760px] z-10">
+                    <div className=" w-[90%] lg:w-[360px] h-[400px] md:h-[300px] lg:h-[400px] bg-[#1F86FB] rounded-[50px] -translate-y-[780px] md:-translate-y-[580px] lg:-translate-y-[780px] z-10">
 
                     </div>
                 </div>
