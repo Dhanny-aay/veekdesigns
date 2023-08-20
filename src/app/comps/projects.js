@@ -10,7 +10,6 @@ const Projects = () => {
             <div className=" flex flex-col md:flex-row justify-around items-center w-full mt-6 md:mt-8 lg:mt-[64px]">
                 <div className=" w-full md:w-[48%] md:flex justify-between">
                     <div className=" proone relative lg:w-[500px] w-full md:w-[340px] h-[400px] md:h-[280px] lg:h-[400px] rounded-[50px] bg-cover">
-                        {/* <Image src={ proone } className=" lg:w-[500px] w-full md:w-[340px] h-[400px] md:h-[280px] lg:h-[400px] bg-transparent rounded-[50px]" alt="" /> */}
                         <button className=" absolute top-20 md:top-4 right-6 font-medium text-xs lg:text-xl bg-[#00000036] backdrop-blur-[5px] py-3 px-4 text-white font-Archivo rounded-[17px]">Swipe for more</button>
                     </div>
                 </div>
@@ -49,7 +48,6 @@ const Projects = () => {
                 </div>
                 <div className=" w-full md:w-[48%] md:flex justify-between">
                     <div className=" lg:w-[500px] w-full md:w-[340px] h-[400px] md:h-[280px] lg:h-[400px] bg-transparent relative rounded-[50px] protwo bg-cover">
-                        {/* <Image src={ protwo } className=" w-[100%] rounded-[50px] h-full" alt="" /> */}
                         <button className=" absolute top-20 md:top-4 right-6 font-medium text-xs lg:text-xl bg-[#00000036] backdrop-blur-[5px] py-3 px-4 text-white font-Archivo rounded-[17px]">Swipe for more</button>
                     </div>
                 </div>
@@ -58,7 +56,6 @@ const Projects = () => {
             <div className=" flex flex-col md:flex-row justify-around items-center w-full mt-6 md:mt-8 lg:mt-[64px]">
                 <div className=" w-full md:w-[48%] md:flex justify-between">
                     <div className=" lg:w-[500px] w-full md:w-[340px] h-[400px] md:h-[280px] rounded-[50px] lg:h-[400px] bg-transparent relative prothree bg-cover">
-                        {/* <Image src={ prothree } className=" w-[100%] rounded-[50px] h-full" alt="" /> */}
                         <button className=" absolute top-20 md:top-4 right-6 font-medium text-xs lg:text-xl bg-[#00000036] backdrop-blur-[5px] py-3 px-4 text-white font-Archivo rounded-[17px]">Swipe for more</button>
                     </div>
                 </div>
@@ -73,8 +70,8 @@ const Projects = () => {
                         <p className=" font-Archivo text-sm lg:text-base font-light">The Chawcad app is your ultimate dining companion, offering a seamless and convenient payment experience. Scan, split, and pay instantly with ease, whether you're online or offline. Trust in Chawcad's secure and reliable app to elevate your dining experience.</p>
                     </span>
                     <a className=" w-full h-[45px] lg:h-[70px] bg-[#f5f5f5] flex justify-between items-center px-6 rounded-[50px]">
-                            <p className=" font-Archivo text-sm lg:text-xl font-normal">View Project</p>
-                            <Image src={ proRow } alt="" />
+                        <p className=" font-Archivo text-sm lg:text-xl font-normal">View Project</p>
+                        <Image src={ proRow } alt="" />
                     </a>
                 </div>
             </div>

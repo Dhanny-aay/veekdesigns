@@ -28,7 +28,7 @@ const Hero = () => {
                     <p className=" text-base lg:text-2xl font-Archivo font-light capitalize">Graphic designer</p>
                 </span>
                 <span className=" flex space-x-3 border-l md:pl-[25px] lg:pl-[51px]">
-                    <Image src={ illus } className="  w-[25px] h-[25px]" alt="" />4
+                    <Image src={ illus } className="  w-[25px] h-[25px]" alt="" />
                     <p className=" text-base lg:text-2xl font-Archivo font-light capitalize">Illustrator</p>
                 </span>
             </div>

@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import { motion } from "framer-motion";
 import send from '../images/send.png';
 import serviceone from '../images/serve1.svg';
 const Servies = () => {
@@ -20,10 +22,11 @@ const Servies = () => {
                     </div>
                 </div>
                 <div className=" w-full md:w-[48%] flex flex-col -translate-y-[760px] md:-translate-y-[280px] lg:-translate-y-[380px] ">
-                    <button className=" w-full flex flex-row justify-between py-[20px] lg:py-[35px] border-b px-3">
+                    <motion.button                                                                 
+                    className=" w-full flex flex-row justify-between py-[20px] lg:py-[35px] border-b px-3">
                         <p className=" font-Archivo font-normal text-lg md:text-base lg:text-xl">Brand Identity Design</p>
                         <Image src={ send } className="w-[16px] h-[16px] md:w-[18px] md:h-[18px] lg:w-auto lg:h-auto" alt="" />
-                    </button>
+                    </motion.button>
                     <button className=" w-full flex flex-row justify-between py-[20px] lg:py-[35px] border-b px-3">
                         <p className=" font-Archivo font-normal text-lg md:text-base lg:text-xl">Product Design and Development</p>
                         <Image src={ send } className="w-[16px] h-[16px] md:w-[18px] md:h-[18px] lg:w-auto lg:h-auto" alt="" />
