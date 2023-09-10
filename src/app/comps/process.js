@@ -4,7 +4,7 @@ import direct from '../images/direct.svg';
 const Process = () => {
     return ( 
         <>
-        <div className=" mt-[480px] mb-16 px-3 md:px-[50px] lg:px-[100px] w-full flex flex-col justify-center items-center">
+        <div className=" mt-[48 mb-16 px-3 md:px-[50px] lg:px-[100px] w-full flex flex-col justify-center items-center">
             <p className=" font-Archivo text-center text-2xl md:text-[32px] lg:text-[48px] font-normal">Lets work - Together</p>
             <span className=" flex flex-row  mt-2 space-x-3">
                 <Image src={ flash } className="" alt="" />
